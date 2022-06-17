@@ -1,0 +1,16 @@
+@import url('./css/navbar.css');
+@import url('./css/header.css');
+@import url('./css/hero.css');
+@import url('./css/main.css');
+@import url('./css/aside.css');
+@import url('./css/footer.css');
+
+
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* { padding: 0px; margin: 0px; box-sizing: border-box; }
+
+
+
+

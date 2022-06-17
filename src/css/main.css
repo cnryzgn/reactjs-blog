@@ -1,0 +1,146 @@
+main {
+    padding: 25px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* POST */
+
+.post-container {
+    width: 100%;
+    max-width: 830px;
+    padding: 12px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-container h3 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.post-container h5 {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.post-container span {
+    color: #999;
+}
+
+.post-container #img {
+    width: 100%;
+    min-width: 400px;
+    height: 500px;
+    background-image: url('../../public/test.jpg');
+    margin: auto auto 25px;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+.post-container p {
+    line-height: 4vh;
+    margin-bottom: 15px;
+    padding-inline: 30px;  
+}
+
+/* ========== Like Button and Reply Button ========== */
+
+.post-container .button-container {
+    margin-top: 17px;
+    margin-bottom: 30px;
+    padding-inline: 30px;  
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.post-container #like-button {
+    min-width: 90px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.post-container #like-button:hover {
+    background-color: #ccc;
+}
+
+.button-container i {
+    margin-right: 5px;
+}
+
+#reply-button {
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#reply-button:hover {
+    color: #000;
+    background-color: #ccc;
+    border: #ccc;
+}
+
+#reply-button span {
+    padding: 5px 8px;
+    background-color: #fff;
+    color: #000;
+    margin-left: 5px;
+}
+
+/* ========== Comment Section ========== */
+
+.reply-section {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+}
+
+#profile-pic {
+    min-width: 90px;    
+    height: 110px;
+    background-image: url('../../public/pp.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: auto;
+    margin-top: 35px;
+}
+
+.reply-section .comment {
+    margin-top: 25px;
+    padding: 8px;
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reply-section h4 {
+    margin-bottom: 15px;
+}
+
+.reply-section span {
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.reply-section p {
+    padding: 0px;
+
+}

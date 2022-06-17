@@ -1,0 +1,36 @@
+footer {
+    height: 26vh;
+    padding: 32px;
+    background-color: #666;
+}
+
+footer button {
+    width: 148px;
+    height: 46px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #ccc;
+    border: #ccc;
+    color: #000;
+}
+
+footer button i {
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+footer p {
+    margin-left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+
+footer a { color : #fff; }

@@ -1,0 +1,67 @@
+.hero-container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../../public/blog.jpg');    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+}
+
+.hero-text {
+    padding-top: 200px;
+    padding-left: 25px;
+}
+
+.hero-text h1 {
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.hero-text #bold-title {
+    font-size: 5rem;
+}
+
+.hero-text button {
+    width: 180px;
+    height: 55px;
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* For Hero Image */
+@media (max-width: 1025px) {
+    .hero-container {
+        background-size:cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 720px) {
+    .hero-container {
+        background-size:cover;
+        background-position: center;
+    }
+
+    nav .search input {
+        width: 150px;
+    }
+
+    .hero-text {
+        padding-top: 200px;
+    }
+
+    .hero-text #bold-title {
+        display: none;
+    }
+}
